@@ -88,7 +88,7 @@ CREATE TABLE public.galaxy (
     galaxy_id integer NOT NULL,
     name character varying(255) NOT NULL,
     speed integer,
-    description integer,
+    description text,
     rotation_speed integer DEFAULT 100000 NOT NULL
 );
 
